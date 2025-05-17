@@ -61,7 +61,7 @@ public class AgeCalculator extends JFrame {
         WEEKYEARS = 4,
         WEEKS = 5,
         HOURS = 101,
-        MINUTES = 220,
+        MINUTES = 250,
         SECONDS = 103;
 
     public static void main(String[] args) throws Exception {
@@ -86,7 +86,7 @@ public class AgeCalculator extends JFrame {
 
 
 
-    
+
     Chronology iChronology;
 
     private String iBirthdateStr;
