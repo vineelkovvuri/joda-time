@@ -65,7 +65,6 @@ public final class Seconds extends BaseSingleFieldPeriod {
     /** Serialization version. */
     private static final long serialVersionUID = 87525275727380862L;
 
-    // -----------------------------------------------------------------------
     /**
      * Obtains an instance of <code>Seconds</code> that may be cached.
      * <code>Seconds</code> is immutable, so instances can be cached and shared.
