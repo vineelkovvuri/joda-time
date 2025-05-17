@@ -23,12 +23,6 @@
   </licenses>
   <organization>
     <name>Joda.org</name>
-    <url>https://www.joda.org</url>
-  </organization>
-  <issueManagement>
-    <system>GitHub</system>
-    <url>https://github.com/JodaOrg/joda-time/issues/</url>
-  </issueManagement>
   <scm>
     <connection>scm:git:https://github.com/JodaOrg/joda-time.git</connection>
     <developerConnection>scm:git:https://github.com/JodaOrg/joda-time.git</developerConnection>
