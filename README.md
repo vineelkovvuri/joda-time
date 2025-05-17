@@ -18,13 +18,13 @@ As a flavour of Joda-Time, here's some example code:
 public boolean isAfterPayDay(DateTime datetime) {
   if (datetime.getMonthOfYear() == 2) {   // February is month 2!!
     return datetime.getDayOfMonth() > 26;
-  }
+
+
+
+
   return datetime.getDayOfMonth() > 28;
 }
 
-public Days daysToNewYear(LocalDate fromDate) {
-  LocalDate newYear = fromDate.plusYears(1).withDayOfYear(1);
-  return Days.daysBetween(fromDate, newYear);
 }
 
 public boolean isRentalOverdue(DateTime datetimeRented) {
