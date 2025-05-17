@@ -37,11 +37,6 @@ import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.DateTimeFormatterBuilder;
 import org.joda.time.format.FormatUtils;
 import org.joda.time.tz.DefaultNameProvider;
-import org.joda.time.tz.FixedDateTimeZone;
-import org.joda.time.tz.NameProvider;
-import org.joda.time.tz.Provider;
-import org.joda.time.tz.UTCProvider;
-import org.joda.time.tz.ZoneInfoProvider;
 
 /**
  * DateTimeZone represents a time zone.

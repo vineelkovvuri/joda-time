@@ -15,7 +15,6 @@
  */
 package org.joda.time;
 
-import java.io.Serializable;
 import java.util.Comparator;
 
 import org.joda.time.convert.ConverterManager;
@@ -53,12 +52,6 @@ public class DateTimeComparator implements Comparator<Object>, Serializable {
     /** Singleton instance */
     private static final DateTimeComparator ALL_INSTANCE = new DateTimeComparator(null, null);
     /** Singleton instance */
-    private static final DateTimeComparator DATE_INSTANCE = new DateTimeComparator(DateTimeFieldType.dayOfYear(), null);
-    /** Singleton instance */
-    private static final DateTimeComparator TIME_INSTANCE = new DateTimeComparator(null, DateTimeFieldType.dayOfYear());
-
-    /** The lower limit of fields to compare, null if no limit */
-    private final DateTimeFieldType iLowerLimit;
     /** The upper limit of fields to compare, null if no limit */
     private final DateTimeFieldType iUpperLimit;
 
